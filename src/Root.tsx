@@ -6,6 +6,10 @@ import {
   AiSkillsL01,
   AI_SKILLS_L01_DURATION,
 } from "./ai-skills/L01_PromptEngineering";
+import {
+  AiLiteracyL01,
+  AI_LITERACY_L01_DURATION,
+} from "./ai-literacy/L01_WhatIsAI";
 
 // MindsetL01 合計: 150+180+150 + (90+240+210)*4 + 180+150 = 2970
 const MINDSET_L01_DURATION = 2970;
@@ -33,6 +37,14 @@ export const RemotionRoot: React.FC = () => {
         id="AiSkillsL01"
         component={AiSkillsL01}
         durationInFrames={AI_SKILLS_L01_DURATION}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="AiLiteracyL01"
+        component={AiLiteracyL01}
+        durationInFrames={AI_LITERACY_L01_DURATION}
         fps={30}
         width={1920}
         height={1080}

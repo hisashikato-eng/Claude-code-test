@@ -5,9 +5,9 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { Background } from "../../../shared/components/Background";
-import { colors } from "../../../shared/components/colors";
-import { fontFamily } from "../../../shared/components/font";
+import { Background } from "../components/Background";
+import { colors } from "../components/colors";
+import { fontFamily } from "../components/font";
 
 type BulletSlideProps = {
   heading: string;

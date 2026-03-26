@@ -5,9 +5,9 @@ import { GoalScene } from "../../shared/scenes/GoalScene";
 import { TOCScene } from "../../shared/scenes/TOCScene";
 import { AssignmentScene } from "../../shared/scenes/AssignmentScene";
 import { OutroScene } from "../../shared/scenes/OutroScene";
-import { ChapterTitle } from "./chapters/ChapterTitle";
-import { BulletSlide } from "./chapters/BulletSlide";
-import { HighlightSlide } from "./chapters/HighlightSlide";
+import { ChapterTitle } from "../../shared/scenes/ChapterTitle";
+import { BulletSlide } from "../../shared/scenes/BulletSlide";
+import { HighlightSlide } from "../../shared/scenes/HighlightSlide";
 import { colors } from "../../shared/components/colors";
 import { loadFonts } from "../../shared/components/font";
 
