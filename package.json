@@ -1,0 +1,22 @@
+{
+  "name": "waij-training-videos",
+  "version": "1.0.0",
+  "description": "WAIJ AIスクール 研修動画シリーズ（Remotion）",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts",
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.242",
+    "@remotion/player": "4.0.242",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.242"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "typescript": "5.7.2"
+  }
+}
